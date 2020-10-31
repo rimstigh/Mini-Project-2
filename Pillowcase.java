@@ -10,7 +10,6 @@ class Pillowcase {
 
   //Default constructor
   Pillowcase() {
-    //candyList.setCandyName("");
     candyCount = 0;
   }
 
@@ -51,7 +50,7 @@ class Pillowcase {
   candyCount += 1;
 }
   //printNumCandies function
-  void printNumCandies() {
+  public void printNumCandies() {
     //create array for candies 
     int candyCounter[] = new int[7];
     //initialize candyCounter 
@@ -99,5 +98,6 @@ class Pillowcase {
     if (candyCounter[6] > 0) {
       System.out.println(candyCounter[6] + " Kit Kat");
     }
-    }}
+  }
+}
 

@@ -20,8 +20,9 @@ class Main {
 
     //print how many candies are in the pillowcase
     System.out.println("We have " + pillowcase1.getCandyCount() + " candies");
-  }
 
     //call printNumCandies on the pillowcase object
     pillowcase1.printNumCandies();
+  
+  }
 }
